@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="{1A55561E-6871-47DE-8434-24F862FB74B5}|Default">
+  <MonoDevelop.Ide.ItemProperties.SongsByWeather PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SongsByWeather/Controllers/MusicsByWeatherController.cs">
+    <Files>
+      <File FileName="SongsByWeather/Controllers/MusicsByWeatherController.cs" />
+      <File FileName="SongsByWeather/Startup.cs" />
+      <File FileName="SongsByWeather/Services/OpenWeatherMapsWeatherProviderService.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SongsByWeather" expanded="True">
+            <Node name="SongsByWeather" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Domain" expanded="True">
+                <Node name="Models" expanded="True" />
+                <Node name="Services" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="MusicsByWeatherService.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>musicsByWeatherService</Value>
+          <Value>_musicsByWeatherService</Value>
+          <Value>response</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/girolneto/Projects/SongsByWeather/SongsByWeather/Services/MusicsByWeatherService.cs" relfile="SongsByWeather/Services/MusicsByWeatherService.cs" line="22" column="1" />
+      <Breakpoint file="/Users/girolneto/Projects/SongsByWeather/SongsByWeather/Services/MusicsByWeatherService.cs" relfile="SongsByWeather/Services/MusicsByWeatherService.cs" line="20" column="1" />
+      <Breakpoint file="/Users/girolneto/Projects/SongsByWeather/SongsByWeather/Controllers/MusicsByWeatherController.cs" relfile="SongsByWeather/Controllers/MusicsByWeatherController.cs" line="25" column="1" />
+      <Breakpoint file="/Users/girolneto/Projects/SongsByWeather/SongsByWeather/Services/OpenWeatherMapsWeatherProviderService.cs" relfile="SongsByWeather/Services/OpenWeatherMapsWeatherProviderService.cs" line="25" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
