@@ -1,0 +1,12 @@
+/Users/girolneto/Downloads/SongsByWeather/bin/Release/appsettings.Development.json
+/Users/girolneto/Downloads/SongsByWeather/bin/Release/appsettings.json
+/Users/girolneto/Downloads/SongsByWeather/bin/Release/SongsByWeather.dll
+/Users/girolneto/Downloads/SongsByWeather/bin/Release/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/girolneto/Downloads/SongsByWeather/bin/Release/Newtonsoft.Json.dll
+/Users/girolneto/Downloads/SongsByWeather/bin/Release/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/girolneto/Downloads/SongsByWeather/bin/Release/Swashbuckle.AspNetCore.Swagger.dll
+/Users/girolneto/Downloads/SongsByWeather/bin/Release/Microsoft.OpenApi.dll
+/Users/girolneto/Downloads/SongsByWeather/bin/Release/SongsByWeather.pdb
+/Users/girolneto/Downloads/SongsByWeather/obj/Release/docker-compose.dcprojAssemblyReference.cache
+/Users/girolneto/Downloads/SongsByWeather/obj/Release/docker-compose.dcproj.CoreCompileInputs.cache
+/Users/girolneto/Downloads/SongsByWeather/obj/Release/docker-compose.dcproj.CopyComplete

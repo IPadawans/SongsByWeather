@@ -1,0 +1,16 @@
+services:
+  songsbyweather:
+    build:
+      context: /Users/girolneto/Downloads/SongsByWeather
+      dockerfile: SongsByWeather/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: songsbyweather
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - /Users/girolneto/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/girolneto/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

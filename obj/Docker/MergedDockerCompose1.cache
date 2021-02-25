@@ -1,0 +1,36 @@
+services:
+  songsbyweather:
+    build:
+      context: /Users/girolneto/Downloads/SongsByWeather
+      dockerfile: SongsByWeather/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: SongsByWeather
+      target: base
+    container_name: SongsByWeather
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: ''
+    image: songsbyweather:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/netcoreapp3.1/SongsByWeather.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - target: 80
+    - target: 443
+    tty: true
+    volumes:
+    - /Users/girolneto/Downloads/SongsByWeather/SongsByWeather:/app:rw
+    - /Users/girolneto/vsdbg/vs2017u5:/remote_debugger:rw
+    - /Users/girolneto/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/girolneto/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+    - /Users/girolneto/.nuget/packages:/root/.nuget/packages:ro
+    - /Users/girolneto/Downloads/SongsByWeather:/src:rw
+version: '3.4'

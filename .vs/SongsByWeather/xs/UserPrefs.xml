@@ -1,15 +1,19 @@
-﻿<Properties StartupConfiguration="{1A55561E-6871-47DE-8434-24F862FB74B5}|Default">
+﻿<Properties StartupConfiguration="{7DE169F4-1CA8-49FC-937C-8842FDD042C0}|Default">
   <MonoDevelop.Ide.ItemProperties.SongsByWeather PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SongsByWeather/Controllers/MusicsByWeatherController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SongsByWeather/appsettings.json">
     <Files>
-      <File FileName="SongsByWeather/Controllers/MusicsByWeatherController.cs" />
+      <File FileName="SongsByWeather/Controllers/MusicsByWeatherController.cs" Line="14" Column="18" />
       <File FileName="SongsByWeather/Startup.cs" />
       <File FileName="SongsByWeather/Services/OpenWeatherMapsWeatherProviderService.cs" />
+      <File FileName="SongsByWeather/Dockerfile" Line="11" Column="20" />
+      <File FileName="SongsByWeather/Properties/launchSettings.json" Line="23" Column="21" />
+      <File FileName="SongsByWeather/appsettings.json" Line="16" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SongsByWeather" expanded="True">
+            <Node name="docker-compose" expanded="True" />
             <Node name="SongsByWeather" expanded="True">
               <Node name="Controllers" expanded="True" />
               <Node name="Domain" expanded="True">
@@ -17,9 +21,8 @@
                 <Node name="Services" expanded="True" />
               </Node>
               <Node name="Properties" expanded="True" />
-              <Node name="Services" expanded="True">
-                <Node name="MusicsByWeatherService.cs" selected="True" />
-              </Node>
+              <Node name="Services" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>
         </State>
@@ -34,13 +37,14 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/girolneto/Projects/SongsByWeather/SongsByWeather/Services/MusicsByWeatherService.cs" relfile="SongsByWeather/Services/MusicsByWeatherService.cs" line="22" column="1" />
-      <Breakpoint file="/Users/girolneto/Projects/SongsByWeather/SongsByWeather/Services/MusicsByWeatherService.cs" relfile="SongsByWeather/Services/MusicsByWeatherService.cs" line="20" column="1" />
-      <Breakpoint file="/Users/girolneto/Projects/SongsByWeather/SongsByWeather/Controllers/MusicsByWeatherController.cs" relfile="SongsByWeather/Controllers/MusicsByWeatherController.cs" line="25" column="1" />
-      <Breakpoint file="/Users/girolneto/Projects/SongsByWeather/SongsByWeather/Services/OpenWeatherMapsWeatherProviderService.cs" relfile="SongsByWeather/Services/OpenWeatherMapsWeatherProviderService.cs" line="25" column="1" />
+      <Breakpoint file="/Users/girolneto/Downloads/SongsByWeather/SongsByWeather/Services/MusicsByWeatherService.cs" relfile="SongsByWeather/Services/MusicsByWeatherService.cs" line="22" column="1" />
+      <Breakpoint file="/Users/girolneto/Downloads/SongsByWeather/SongsByWeather/Services/MusicsByWeatherService.cs" relfile="SongsByWeather/Services/MusicsByWeatherService.cs" line="20" column="1" />
+      <Breakpoint file="/Users/girolneto/Downloads/SongsByWeather/SongsByWeather/Controllers/MusicsByWeatherController.cs" relfile="SongsByWeather/Controllers/MusicsByWeatherController.cs" line="25" column="1" />
+      <Breakpoint file="/Users/girolneto/Downloads/SongsByWeather/SongsByWeather/Services/OpenWeatherMapsWeatherProviderService.cs" relfile="SongsByWeather/Services/OpenWeatherMapsWeatherProviderService.cs" line="25" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
