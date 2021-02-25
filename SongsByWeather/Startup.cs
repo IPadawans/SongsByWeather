@@ -12,6 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using SongsByWeather.Services;
 using SongsByWeather.Domain.Services;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace SongsByWeather
 {
@@ -30,6 +31,7 @@ namespace SongsByWeather
             services.AddTransient<MusicsByWeatherService>();
             services.AddTransient<IWeatherProviderService, OpenWeatherMapsWeatherProviderService>();
             services.AddTransient<IPlaylistProviderService, SpotifyPlaylistProviderService>();
+            services.AddSwaggerGen();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -37,6 +39,8 @@ namespace SongsByWeather
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "SongsByWeather v1"));
             }
 
             app.UseHttpsRedirection();

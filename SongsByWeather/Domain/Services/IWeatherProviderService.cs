@@ -5,7 +5,7 @@ namespace SongsByWeather.Domain.Services
 {
     public interface IWeatherProviderService
     {
-        Task<double> getTemperatureInCelsiusByCity(String city);
-        Task<double> getTemperaturaInCelsiusByLatitudeAndLongitude(long latitude, long longitude);
+        Task<Nullable<double>> GetTemperatureInCelsiusByCity(String city);
+        Task<Nullable<double>> GetTemperaturaInCelsiusByLatitudeAndLongitude(double latitude, double longitude);
     }
 }
